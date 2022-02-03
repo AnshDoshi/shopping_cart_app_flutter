@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primarySwatch: Colors.blue, //brightness will overlape this part
       ),
-      initialRoute: "/home",
+      initialRoute: "/login",
       routes: {
         "/": (context) => LoginPage(),
         "/home": (context) => HomePage(),
