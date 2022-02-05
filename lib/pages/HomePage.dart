@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
     final rnge = 3.11; //we can change this value
     return Scaffold(
       appBar: AppBar(
-        title: Text("Demo App"),
+        title: Text("First App"),
       ),
       body: Center(
         child: Container(
