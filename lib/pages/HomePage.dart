@@ -27,7 +27,9 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Hii $Name how's you brother? "),
+          height: 100,
+          width: 100,
+          color: Colors.red,
         ),
       ),
       drawer: MyDrawer(),

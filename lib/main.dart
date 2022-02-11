@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       //   // primaryTextTheme: GoogleFonts.latoTextTheme(),
       // ),
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.homeRoute,
+      initialRoute: "/",
       routes: {
         "/": (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),
