@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dummyList = List.generate(5, (index) => CatalogModel.items[0]);
+    final dummyList = List.generate(7, (index) => CatalogModel.items[0]);
     var Name = "ansh doshi";
 
     double pie = 3.14;

@@ -4,7 +4,7 @@ class CatalogModel {
       id: 01,
       name: "ansh",
       desc: "macbook air",
-      price: 75000,
+      price: 999,
       color: "#33505a",
       image: 'assets/images/air.jpeg',
     ),
